@@ -26,14 +26,11 @@ export const App = () => {
     console.log(val);
   }
 
-
-
 const countTotalFeedback = () => {
     
     const total = good + neutral + bad;
     return total;
 }
-
 
   function countPositiveFeedbackPercentage(total) {
     
@@ -42,7 +39,6 @@ const countTotalFeedback = () => {
   }
 
   
-
     return (
       <>
       <Section title="Please leave feedback">
